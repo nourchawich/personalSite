@@ -1,0 +1,9 @@
+version: '3'
+services:
+  personal-site-server:
+    image: personal_site
+    build: .
+    ports:
+    - "8080:55580"
+    restart: always
+
