@@ -2,8 +2,8 @@ version: '3'
 services:
   personal-site-server:
     image: personal_site
-    build: .
+    build: ./dist
     ports:
-    - "8080:55580"
+    - "8080:80"
     restart: always
 
